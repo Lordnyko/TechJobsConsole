@@ -124,20 +124,11 @@ namespace TechJobsConsole
             {
                 Console.WriteLine("*****");
                 foreach (KeyValuePair<string, string> kvp in job)
-                {
-                    //Console.WriteLine("\n *****\n");
-                    Console.WriteLine(kvp.Key + ": " + kvp.Value);
-                    //Console.WriteLine("*****");
+                {                    
+                    Console.WriteLine(kvp.Key + ": " + kvp.Value);                    
                 }
                 Console.WriteLine("*****");
             }
-            /*Console.WriteLine("\n*****");
-            Console.WriteLine("name: someJobs[0]");
-            Console.WriteLine("employer: someJobs[1]");
-            Console.WriteLine("location: someJobs[2]");
-            Console.WriteLine("position: someJobs[3]");
-            Console.WriteLine("*****");
-            */
 
         }
     }
